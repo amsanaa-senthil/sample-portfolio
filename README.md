@@ -1,117 +1,171 @@
-# Portfolio Website - Pure HTML/CSS
+Portfolio Website (Pure HTML, CSS, and JavaScript)
+This repository contains a clean, responsive personal portfolio website built using pure HTML, CSS, and vanilla JavaScript. The site does not rely on any frameworks, build tools, or package managers, making it lightweight, fast, and easy to maintain.
 
-A clean, responsive portfolio website built with pure HTML, CSS, and JavaScript (no frameworks needed).
+Overview
+The portfolio is structured as a multi-page website, with each page focusing on a specific aspect of personal and professional information. The design prioritizes clarity, responsiveness, and performance while maintaining a modern aesthetic.
 
-## 🎯 Pages
-
-Your portfolio now consists of 5 separate pages:
-
-1. **home.html** - Landing page with hero section and code block illustration
-2. **about.html** - About section with skills cards
-3. **projects.html** - Portfolio projects and blog posts
-4. **leadership.html** - University and school leadership roles
-5. **contact.html** - Contact information and social links
-
-## 📁 Files You Need
-
-### Essential Files:
-- `home.html` - Main landing page ⭐ **START HERE**
-- `about.html` - About page
-- `projects.html` - Projects page
-- `leadership.html` - Leadership page
-- `contact.html` - Contact page
-- `styles.css` - All styling
-- `script.js` - Mobile menu & animations
-
-### Optional/Delete:
-- `index.html` - Old single-page version (can delete)
-- `.gitignore` - Only needed if using Git
-- All `.tsx`, `.ts`, `package.json`, `tsconfig.json` files
-
-## 🚀 How to Use
-
-1. **Open the website:**
-   - Double-click `home.html` to open in your browser
-   - OR right-click → Open with → Your Browser
-
-2. **Edit content:**
-   - Open any `.html` file in a text editor
-   - Find the section you want to edit
-   - Change the text/links
-   - Save and refresh your browser
-
-3. **Edit styling:**
-   - Open `styles.css`
-   - Find the section you want to style
-   - Change colors, fonts, sizes, etc.
-   - Save and refresh your browser
-
-## ✨ Features
-
-✅ Fully responsive (mobile, tablet, desktop)
-✅ Smooth animations and transitions
-✅ Mobile-friendly navigation menu
-✅ No build tools or npm required
-✅ Fast loading times
-✅ Clean, maintainable code
-
-## 🎨 Customization
-
-### Change Colors:
-Edit the CSS color values in `styles.css`:
-- Primary blue: `#2563eb`
-- Dark text: `#1e293b`
-- Light background: `#f8fafc`
-
-### Add New Pages:
-1. Copy any existing HTML file
-2. Update the `<title>` tag
-3. Change the content inside `<section>`
-4. Update navbar links if needed
-
-### Add Images:
-```html
-<img src="your-image.jpg" alt="Description">
-```
-
-## 📱 Responsive Breakpoints
-
-- **Mobile:** < 640px
-- **Tablet:** 640px - 1024px
-- **Desktop:** > 1024px
-
-## 🔧 Troubleshooting
-
-**Menu not working?**
-- Make sure `script.js` is in the same folder
-- Check browser console for errors (F12)
-
-**Styles not loading?**
-- Make sure `styles.css` is in the same folder
-- Clear browser cache (Ctrl+F5)
-
-**Links not working?**
-- Make sure all HTML files are in the same folder
-- Check that filenames match exactly (case-sensitive)
-
-## 📞 Contact
-
-- **Email:** iamsanaa08@gmail.com
-- **LinkedIn:** [Amsanaa Senthilkumar](https://linkedin.com/in/amsanaa-senthilkumar-0b66051aa)
-- **GitHub:** [amsanaa-senthil](https://github.com/amsanaa-senthil)
-- **Twitter/X:** [@Amsanaa_Senthil](https://x.com/Amsanaa_Senthil)
-
----
-
-**Made with ❤️ using pure HTML, CSS, and JavaScript**
-
-## Run Locally
-
-**Prerequisites:**  Node.js
+Pages
+The website consists of the following pages:
+home.html
+ Landing page featuring a hero section and introductory content.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+about.html
+ Overview of background, interests, and technical skills.
+
+
+projects.html
+ Showcase of academic and personal projects, including technical descriptions.
+
+
+leadership.html
+ Leadership roles, university involvement, and school-level achievements.
+
+
+contact.html
+ Contact information and links to professional profiles.
+
+
+
+Project Structure
+Required Files
+home.html – Main entry point
+
+
+about.html – About page
+
+
+projects.html – Projects showcase
+
+
+leadership.html – Leadership and activities
+
+
+contact.html – Contact details
+
+
+styles.css – Centralized styling for all pages
+
+
+script.js – JavaScript for navigation and basic interactivity
+
+
+Optional or Removable Files
+index.html – Legacy single-page version (can be removed)
+
+
+.gitignore – Only required if using Git
+
+
+Any .tsx, .ts, package.json, or tsconfig.json files from previous framework-based setups
+
+
+
+How to Run the Website
+This is a static website and does not require any server or build process.
+Download or clone the repository.
+
+
+Open home.html directly in any modern web browser.
+
+
+All navigation between pages works locally.
+
+
+
+Editing the Content
+Editing Text and Sections
+Open the relevant .html file in a text editor.
+
+
+Modify the content inside the <section> elements.
+
+
+Save the file and refresh the browser.
+
+
+Styling Changes
+Open styles.css.
+
+
+Update colors, fonts, spacing, or layout rules.
+
+
+Save and refresh to see changes instantly.
+
+
+
+Customization Guide
+Color Palette
+The main colors are defined in styles.css and can be adjusted easily:
+Primary color: #2563eb
+
+
+Dark text color: #1e293b
+
+
+Background color: #f8fafc
+
+
+Adding New Pages
+Copy an existing .html file.
+
+
+Update the <title> tag.
+
+
+Replace the content inside the main <section>.
+
+
+Add the new page link to the navigation menu.
+
+
+
+
+Responsiveness
+The website is fully responsive and optimized for different screen sizes:
+Mobile devices: below 640px
+
+
+Tablets: 640px to 1024px
+
+
+Desktops: above 1024px
+
+
+
+Troubleshooting
+Styles not applying
+Confirm styles.css is in the same directory as the HTML files.
+
+
+Hard refresh the browser using Ctrl + F5.
+
+
+Navigation menu not working
+Ensure script.js is correctly linked.
+
+
+Check the browser console for JavaScript errors.
+
+
+Broken links
+Verify all file names match exactly (case-sensitive).
+
+
+Ensure all pages are in the same directory.
+
+
+
+Contact Information
+Email: iamsanaa08@gmail.com
+
+
+LinkedIn: https://linkedin.com/in/amsanaa-senthilkumar-0b66051aa
+
+
+GitHub: https://github.com/amsanaa-senthil
+
+
+Twitter/X: https://x.com/Amsanaa_Senthil
+
